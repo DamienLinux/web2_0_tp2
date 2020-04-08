@@ -18,7 +18,6 @@ export class ProductsService {
   }
 
   getProduits() : ProduitModule[] {
-    console.log(this.produits);
     return this.produits;
   }
 }

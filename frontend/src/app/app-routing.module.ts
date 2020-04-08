@@ -4,9 +4,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { InfosPageComponent } from './infos-page/infos-page.component';
 import { AgendaPageComponent } from './agenda-page/agenda-page.component';
-import { ContactPageComponent } from './contact-page/contact-page.component';
 import { MapPageComponent } from './map-page/map-page.component';
 import { AdministrationComponent } from './administration/administration.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 
 const routes: Routes = [  

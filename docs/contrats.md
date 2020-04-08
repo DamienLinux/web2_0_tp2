@@ -4,7 +4,7 @@
 
 **GET /horaires** : tableau de "jour"
 
-Un "horaire" :
+Un "jour" :
 
 * libelle : string
 

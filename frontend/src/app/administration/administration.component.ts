@@ -22,7 +22,6 @@ export class AdministrationComponent implements OnInit {
 
   onSubmit() : void {
     this.appComponent.seConnecte();
-    
   }
 
   getComponent() : AppComponent {
