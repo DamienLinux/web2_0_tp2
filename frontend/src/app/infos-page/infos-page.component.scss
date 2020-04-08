@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu');
+
+li:before{
+	content: "-";
+	margin-right: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.acces div {
+    padding: 40px;;
+}
+
+@media (max-width: 1200px) {
+    .acces div {
+        padding: 5px;
+    }
+    .btnGray {
+        width: 98% !important;
+        margin-left: 1% !important;
+    }
+    .acces div div button {
+        font-size: 12pt !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .acces div div button {
+        font-size: 10pt !important;
+    }
+}
+
+.acces div div {
+    padding: 0;
+    background-color: rgb(163, 142, 125);
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+.backgroundInfo {
+    margin-top: 15px;
+    background-color: rgb(163, 142, 125);
+    border: 2px solid black;
+}
+
+.acces div img {
+    width: 100%;
+    height: 256px;
+    object-fit: cover; 
+}
+
+.acces div div button {
+    font-size: 14pt;
+}
+
+.btnGray {
+    background-color: #6E6E6E;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    word-break: break-all;
+}
+
+.txtPresentation {
+    color: white;
+    font-size: 14pt;
+    font-family: "Gotu", "Times", "sans-serif";
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btnGray:hover {
+    background-color: #898989;
+}

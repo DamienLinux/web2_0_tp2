@@ -1,0 +1,78 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+[
+    {
+        "libelle": "Lundi",
+        "content": [
+            {
+                "heureDebut": 8,
+                "heureFin": 12,
+                "contenu": "Horaires du matin"
+            },
+            {
+                "heureDebut": 15,
+                "heureFin": 19,
+                "contenu": "Horaires de l'après-midi"
+            }
+        ]
+    },
+    {
+        "libelle": "Mardi",
+        "content": [
+            {
+                "heureDebut": 8,
+                "heureFin": 12,
+                "contenu": "Horaires du matin"
+            },
+            {
+                "heureDebut": 15,
+                "heureFin": 19,
+                "contenu": "Horaires de l'après-midi"
+            }
+        ]
+    },
+    {
+        "libelle": "Mercredi",
+        "content": [
+            {
+                "heureDebut": 8,
+                "heureFin": 12,
+                "contenu": "Horaires du matin"
+            },
+            {
+                "heureDebut": 15,
+                "heureFin": 19,
+                "contenu": "Horaires de l'après-midi"
+            }
+        ]
+    },
+    {
+        "libelle": "Jeudi",
+        "content": [
+            {
+                "heureDebut": 8,
+                "heureFin": 12,
+                "contenu": "Horaires du matin"
+            },
+            {
+                "heureDebut": 15,
+                "heureFin": 19,
+                "contenu": "Horaires de l'après-midi"
+            }
+        ]
+    },
+    {
+        "libelle": "Vendredi",
+        "content": []
+    },
+    {
+        "libelle": "Samedi",
+        "content": []
+    },
+    {
+        "libelle": "Dimanche",
+        "content": []
+    }
+]

@@ -1,0 +1,69 @@
+<html><head><style>body {
+   color: black;
+}
+</style></head><body><h1 id="contrats-json">Contrats JSON</h1>
+<h2 id="1-lister-les-horaires">1) Lister les horaires</h2>
+<p><strong>GET /horaires</strong> : tableau de &quot;jour&quot;</p>
+<p>Un &quot;horaire&quot; :</p>
+<ul>
+<li><p>libelle : string</p>
+</li>
+<li><p>content: tableau de &quot;horaire&quot;</p>
+</li>
+</ul>
+<p>Un &quot;horaire&quot; :</p>
+<ul>
+<li><p>heureDebut : number</p>
+</li>
+<li><p>heureFin : number</p>
+</li>
+<li><p>contenu : string</p>
+</li>
+</ul>
+<p>Exemple :</p>
+<pre><code>[
+    {
+        <span class="hljs-attr">"libelle"</span>: <span class="hljs-string">"Lundi"</span>,
+        <span class="hljs-attr">"content"</span>: [
+            {
+                <span class="hljs-attr">"heureDebut"</span>: <span class="hljs-number">12</span>,
+                <span class="hljs-attr">"heureFin"</span>: <span class="hljs-number">20</span>,
+                <span class="hljs-attr">"contenu"</span>: <span class="hljs-string">"Horaires"</span>
+            },
+            {
+                <span class="hljs-attr">"heureDebut"</span>: <span class="hljs-number">18</span>,
+                <span class="hljs-attr">"heureFin"</span>: <span class="hljs-number">19</span>,
+                <span class="hljs-attr">"contenu"</span>: <span class="hljs-string">"Happy Hour"</span>
+            }
+        ]
+    },
+    {
+        <span class="hljs-attr">"libelle"</span>: <span class="hljs-string">"Mardi"</span>,
+        <span class="hljs-attr">"content"</span>: []
+    }
+]
+</code></pre><h2 id="2-lister-les-produits">2) Lister les produits</h2>
+<p><strong>GET /produits</strong> : tableau de &quot;produit&quot;</p>
+<p>Un &quot;produit&quot; :</p>
+<ul>
+<li><p>lienImg : string</p>
+</li>
+<li><p>libelle : string</p>
+</li>
+<li><p>prix : string</p>
+</li>
+</ul>
+<p>Exemple :</p>
+<pre><code>[
+    {
+        <span class="hljs-attr">"urlImg"</span>: <span class="hljs-string">"assets/vin_rouge.jpg"</span>,
+        <span class="hljs-attr">"libelle"</span>: <span class="hljs-string">"Vin Rouge"</span>,
+        <span class="hljs-attr">"prix"</span>: <span class="hljs-string">"8.00€"</span>
+    },
+    {
+        <span class="hljs-attr">"urlImg"</span>: <span class="hljs-string">"assets/vodka.jpg"</span>,
+        <span class="hljs-attr">"libelle"</span>: <span class="hljs-string">"Vodka"</span>,
+        <span class="hljs-attr">"prix"</span>: <span class="hljs-string">"14.00€"</span>
+    }
+]
+</code></pre></body></html>

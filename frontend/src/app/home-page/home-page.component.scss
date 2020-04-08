@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu');
+
+.blockAccueil {
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14pt;
+    background-color: #F0EAEA;
+    box-shadow: black 5px;
+    font-family: fantasy;
+}
+
+.container_fluid {
+    width: 99%
+}
+
+.backgroundCharcut {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("../../assets/cat-charcuteries.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.logoImg {
+    width: 100%;
+}
+
+.backgroundPresentation {
+    background-color: #757575;
+    border: 2px solid black;
+}
+
+.txtPresentation {
+    color: white;
+    font-size: 14pt;
+    font-family: "Gotu", "Times", "sans-serif";
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btnGray {
+    background-color: #6E6E6E;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.btnGray:hover {
+    background-color: #898989;
+}

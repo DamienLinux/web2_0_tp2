@@ -1,0 +1,30 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+      <button mat-button routerLink="/home">
+        <i class="material-icons">home</i> Home
+      </button>
+      <button mat-button routerLink="/about">
+        <i class="material-icons">help_outline</i> A propos
+      </button>
+      <button mat-button [matMenuTriggerFor]="menu">
+        <i class="material-icons">info</i> Infos
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="/infos/agenda">Agenda</button>
+        <button mat-menu-item routerLink="/infos/contact">Contact</button>
+        <button mat-menu-item routerLink="/infos/map">Map</button>
+      </mat-menu>
+      <div *ngIf="getConnecte(); then thenBlock else elseBlock"></div>
+      <ng-template #thenBlock>
+        <button mat-button (click)="seDeconnecte()">
+          <i class="material-icons">lock</i> Se déconnecter
+        </button>
+      </ng-template>
+      <ng-template #elseBlock>
+        <button mat-button routerLink="/administration">
+          <i class="material-icons">lock</i> Administration
+        </button>
+      </ng-template>
+    </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>

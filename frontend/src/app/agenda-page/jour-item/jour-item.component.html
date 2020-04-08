@@ -1,0 +1,17 @@
+<div class="block">
+    <div *ngIf="jour.content != null && jour.content.length > 0; then thenBlock else elseBlock"></div>
+    <ng-template #thenBlock>
+        <div class="blockJour blockNonFerme">
+            <h3><b>{{ jour.libelle }}</b></h3>
+            <ul>
+                <app-events [event]="content" *ngFor="let content of jour.content"></app-events>
+            </ul>
+        </div>
+    </ng-template>
+    <ng-template #elseBlock>
+        <div class="blockJour blockFerme">
+            <h3><b>{{ jour.libelle }}</b></h3>
+            <p><b>Fermeture exceptionnelle</b></p>
+        </div>
+    </ng-template>
+</div>

@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+[
+    {
+    	"urlImg": "assets/saucisson-sec.jpg",
+    	"libelle": "Saucisson sec",
+    	"prix": "12.00€"
+    },
+    {
+    	"urlImg": "assets/saucisse-toulouse.jpg",
+    	"libelle": "Saucisse de Toulouse",
+    	"prix": "10.00€"
+    },
+    {
+    	"urlImg": "assets/saucisse-seche.jpg",
+    	"libelle": "Saucisse sèche",
+    	"prix": "14.00€"
+    },
+    {
+    	"urlImg": "assets/cassoulet-toulouse.jpg",
+    	"libelle": "Cassoulet",
+    	"prix": "25.00€"
+    },
+    {
+    	"urlImg": "assets/pate-campagne.jpg",
+    	"libelle": "Paté de campagne",
+    	"prix": "3.20€"
+    },
+    {
+    	"urlImg": "assets/chorizo-doux.jpg",
+    	"libelle": "Chorizo Doux",
+    	"prix": "10.00€"
+    }
+]

@@ -1,0 +1,43 @@
+<div class="container blockDescription">
+    <div class="row">
+        <div class="col-lg-1 col-sm-1 col-md-1 hidden-xs"></div>
+        <div class="col-lg-10 col-sm-10 col-md-10 hidden-xs img-and-text-container">
+            <img class="descriptionImg" src="assets/histoire-mg-1.png" alt="Photo de famille mon frère" />
+            <p class="descriptionText">« Fils de Charcutiers, ils seront charcutiers » ! De la petite boutique des débuts (1961) 
+                au magnifique stand du Marché Central Victor-Hugo à Toulouse, en passant par l’atelier de 
+                fabrication de l' Eurocentre et sa boutique, une seule ligne directrice : le Respect !
+                Le respect du produit, le respect des traditions, le respect du client ; tâche simplifiée 
+                quand la passion anime les hommes. Notre crédo, cette profession de foi des Compagnons du 
+                Devoir : « De main à main, à travers les âges, se transmet la tradition des Métiers »</p>
+        </div>
+        <div class="col-lg-1 col-sm-1 col-md-1 hidden-xs"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1 col-sm-1 col-md-1 hidden-xs"></div>
+        <div class="col-lg-10 col-sm-10 col-md-10 hidden-xs img-and-text-container">
+            <p class="descriptionText">
+                Suite logique au développement raisonné de notre entreprise, nous avons édifié au côté de la boutique et de l'atelier une superbe salle de réception où peuvent se décliner tous types d'événements : séminaires, showrooms, réunion professionnelles ou familiales…
+                
+                Ses atouts :
+                
+                    Son accessibilité (10 minutes péage autoroute nord Toulouse),
+                    son grand parking,
+                    sa modularité,
+                    son acoustique.
+            </p>
+            <img class="descriptionImg" src="assets/victor-hugo-miniature.jpg" alt="Photo de famille mon frère" />
+        </div>
+        <div class="col-lg-1 col-sm-1 col-md-1 hidden-xs"></div>
+    </div>
+</div>
+<div class="container">
+    <h1 class="marge">Nos produits</h1>
+    <div class="product" *ngFor="let produit of getProduits()">
+        <img class="logoImg" src="{{ produit.urlImg}}" alt="Photo de présentation" />
+        <div class="text">
+            <h2>{{ produit.libelle }}</h2>
+            <p><b>Prix :</b> {{ produit.prix }}</p>
+        </div>
+    </div>
+</div>
+
